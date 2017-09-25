@@ -18,7 +18,9 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="102dp"
-        app:srcCompat="@drawable/coal"/>
+        app:srcCompat="@drawable/coal"
+        android:contentDescription=""
+        tools:ignore="ContentDescription"/>
 
     <TextView
         android:id="@+id/textView"
@@ -28,7 +30,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="37dp"
         android:fontFamily="serif-monospace"
-        android:text="I am poor! "
+        android:text="@string/i_am_poor"
         android:textAllCaps="false"
         android:textColor="@android:color/black"
         android:textSize="40sp"
@@ -46,7 +48,7 @@
         android:backgroundTint="@android:color/holo_green_dark"
         android:elevation="16dp"
         android:padding="20dp"
-        android:text="Donate a beer"
+        android:text="@string/donate_a_beer"
         android:textAllCaps="true"
         android:textAppearance="@android:style/TextAppearance.Material"
         android:textColor="@android:color/black"
